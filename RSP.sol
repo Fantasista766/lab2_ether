@@ -95,7 +95,7 @@ contract RSP {
     }
 
     function resetGame() public onlyOwner {
-        require(players.length > 0, "the game hasn't started yet");
+        require(players.length > 0, "the game has not started yet");
         commitments[players[0]] = 0x0;
         commitments[players[1]] = 0x0;
         reveals[players[0]] = false;
