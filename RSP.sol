@@ -64,7 +64,7 @@ contract RSP {
         require(0 <= move && move <= 2, "wrong move");
         require(
             keccak256(abi.encode(move, secret)) == commitments[msg.sender],
-            "your input doesn't match your commitment"
+            "your input does not match your commitment"
         );
         moves[msg.sender] = RSP.Move(move);
         reveals[msg.sender] = true;
