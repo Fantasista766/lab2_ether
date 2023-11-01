@@ -8,10 +8,10 @@
 
 ## Как играть
 Игроки создают коммитменты с помощью следующих сервисов:
-https://adibas03.github.io/online-ethereum-abi-encoder-decoder/#/encode - для кодирования значений в байты
-https://emn178.github.io/online-tools/keccak_256.html - для получения хеш-кода
+- https://adibas03.github.io/online-ethereum-abi-encoder-decoder/#/encode - для кодирования значений в байты
+- https://emn178.github.io/online-tools/keccak_256.html - для получения хеш-кода
 
-Далее они вызывает функцию commit, передавая свои коммитменты
+Далее они вызывают функцию commit, передавая свои коммитменты
 
 После того, как оба игрока отправят свои коммитменты, они вызывают функцию reveal с соответствующими параметрами
 
